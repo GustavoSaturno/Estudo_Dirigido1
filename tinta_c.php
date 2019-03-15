@@ -30,6 +30,8 @@
     } 
 
         $quantidade_final = $quantidade3_6L + $quantidade18;    
-        $preco = $quantidade*25;
-        print "Para cobrir $area_inicial metros quadrados você gastara $quantidade18 latas e $quantidade3_6L galões o preço será R$$preco \n \n";
+        $preco = $quantidade3_6L*25;
+        $preco2 = $quantidade18*80;
+        $preco_final= $preco + $preco2;
+        print "Para cobrir $area_inicial metros quadrados você gastara $quantidade18 latas e $quantidade3_6L galões o preço será R$$preco_final \n \n";
     
