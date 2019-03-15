@@ -16,7 +16,6 @@
 
 
     while($area > 0){
-        print "Repetiu \n";
         $area = $area - $lata3_6L;
         $quantidade = $quantidade+1;
     }
