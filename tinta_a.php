@@ -22,7 +22,7 @@
 
 
     // if ($area > 0) {
-    //         $area - $lata3_6L;
+    //         $area - $lata18L;
     //         $quantidade = $quantidade+1;
     // } 
     
