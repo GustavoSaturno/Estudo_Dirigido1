@@ -13,7 +13,9 @@
 
     print "Quantos metros quadrados você deseja pintar? \n \n";
     $area_inicial = $area = (int) fgets (STDIN);
-
+    
+    $area_inicial = $area + $area*0.10;
+    $area = $area + $area*0.10;
     $quantidade3_6L = 0;
     $quantidade18 = 0;
 
